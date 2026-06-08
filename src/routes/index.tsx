@@ -1,29 +1,18 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { LivingOrganism } from "@/components/LivingOrganism";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Living Website — An organism that grows" },
+      { name: "description", content: "A website that behaves like a living organism. Pages grow, sections mutate, elements reproduce." },
+      { property: "og:title", content: "Living Website" },
+      { property: "og:description", content: "A website that grows, mutates, and reproduces." },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
+  return <LivingOrganism />;
 }
