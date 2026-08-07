@@ -32,7 +32,6 @@ const CommandDialog = ({ children, ...props }: DialogProps) => {
         </Command>
       </DialogContent>
     </Dialog>
-  );
 };
 
 const CommandInput = React.forwardRef<
