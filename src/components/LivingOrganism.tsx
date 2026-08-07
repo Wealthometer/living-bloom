@@ -381,3 +381,4 @@ export function LivingOrganism() {
       </footer>
     </div>
   );
+}
