@@ -20,3 +20,4 @@ export const getGreeting = createServerFn({ method: "POST" })
       mode: config.nodeEnv ?? "unknown",
     };
   });
+ 
