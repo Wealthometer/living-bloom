@@ -47,6 +47,7 @@ const sheetVariants = cva(
       side: "right",
     },
   },
+); 
 
 interface SheetContentProps
   extends
